@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>V One Presents – YouTubers Awards</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,500;12..96,800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<canvas id="intro"></canvas>
+<div class="cursor" id="cursor"></div>
+<header class="nav"><b>V ONE</b><nav><a href="#journey">Legends</a><a href="#vote">Vote</a><a href="#partners">Partners</a><a href="#contact">Contact</a></nav></header>
+
+<section class="hero" data-bg="#0a0714">
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <div class="hc">
+    <p class="pre split">V ONE PRESENTS</p>
+    <h1 class="split big">YouTubers</h1>
+    <h1 class="split big it">Awards 2026</h1>
+    <p class="sub fade">One night. Every creator who changed the screen.</p>
+  </div>
+  <div class="cue"></div>
+</section>
+
+<section class="manifesto" data-bg="#150d33"><p id="manifesto">Behind every view count is a person who pressed record when nobody was watching. This night is for them.</p></section>
+
+<section class="journey" id="journey" data-bg="#0a0714">
+  <div class="scene" data-bg="#3b1a8f,#10062e"><div class="txt"><span class="yr">2016</span><h2 class="split">The first upload</h2><p>Artist name · Pioneer</p></div><div class="frame"><div class="ph"></div><i>Photo 1</i></div></div>
+  <div class="scene" data-bg="#c4452f,#2a0a14"><div class="txt"><span class="yr">2018</span><h2 class="split">One million</h2><p>Artist name · Breakout</p></div><div class="frame"><div class="ph"></div><i>Photo 2</i></div></div>
+  <div class="scene" data-bg="#0f8a86,#04202e"><div class="txt"><span class="yr">2020</span><h2 class="split">Home studio</h2><p>Artist name · Storyteller</p></div><div class="frame"><div class="ph"></div><i>Photo 3</i></div></div>
+  <div class="scene" data-bg="#d9368a,#25083d"><div class="txt"><span class="yr">2023</span><h2 class="split">Sold-out stage</h2><p>Artist name · Icon</p></div><div class="frame"><div class="ph"></div><i>Photo 4</i></div></div>
+  <div class="scene" data-bg="#e8b45a,#2b1708"><div class="txt"><span class="yr">2026</span><h2 class="split">Hall of fame</h2><p>Artist name · Legend</p></div><div class="frame"><div class="ph"></div><i>Photo 5</i></div></div>
+  <div class="hud"><span id="count">01 / 05</span><div class="bar"><b id="bar"></b></div><span>Scroll</span></div>
+</section>
+
+<section class="noms" id="vote" data-bg="#f2ece0">
+  <h2 class="split sec">Cast your vote</h2>
+  <p class="sub">Pick one nominee in each category. You can change your choice until you submit.</p>
+  <div class="grid" id="grid"></div>
+  <div class="vb"><span id="msg">0 of 6 categories chosen</span><button class="btn" id="submit" disabled>Submit votes</button></div>
+</section>
+
+<section class="work" id="work" data-bg="#1c0f45">
+  <h2 class="split sec">Setting the pace</h2>
+  <div class="track" id="track"></div>
+</section>
+
+<section class="spons" id="partners" data-bg="#0a0714">
+  <div class="lab">Presented by</div>
+  <div class="rail" id="rail">
+    <div class="logo main">YOUR LOGO</div><div class="logo o">Partner Two</div><div class="logo o">Partner Three</div><div class="logo o">Partner Four</div><div class="logo o">Partner Five</div>
+  </div>
+</section>
+
+<section class="momento" data-bg="#120a2b">
+  <canvas id="gl"></canvas>
+  <div class="mq"><blockquote class="split">“Fame fades. A story that made someone press record again does not.”</blockquote><cite class="fade">Add your own line here</cite></div>
+</section>
+
+<section class="contact" id="contact" data-bg="#6a3df0">
+  <h2 class="split sec">Work with us</h2>
+  <div class="cw"><div><p>Sponsorship, nominations, press or tickets. We reply within two working days.</p><p>hello@voneawards.com<br>+00 000 000 0000</p></div>
+  <form id="form"><input placeholder="Your name" aria-label="Name" required><input type="email" placeholder="Email" aria-label="Email" required><textarea rows="3" placeholder="How can we help?" aria-label="Message"></textarea><button class="btn" type="submit">Send message</button><span id="sent"></span></form></div>
+  <div class="foot"><span>© 2026 V One</span><span>YouTubers Awards</span></div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body></html>
